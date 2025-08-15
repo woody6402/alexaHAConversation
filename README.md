@@ -52,9 +52,11 @@ This Alexa Custom Skill connects Alexa to your Home Assistant instance, allowing
 
 Once the skill is published or enabled in developer mode, you can interact with it using commands such as:
 
-> **"Alexa, open Haushelfer"**  
-> **"Alexa, ask Haushelfer for the living room temperature"**  
-> **"Alexa, tell Haushelfer to turn on the hallway light"**
+> **"Alexa, frage den Haushelfer"**  
+> **"Status Klimaanlage"**  
+> **"schalte die Kaffeemaschine aus"**
+
+Currently the interaction is done in German, but can be easily translated to en ...
 
 ---
 
