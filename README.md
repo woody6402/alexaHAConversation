@@ -16,7 +16,7 @@ This Alexa Custom Skill connects Alexa to your Home Assistant instance, allowing
 ### 1. Create the Skill in the Alexa Developer Console
 1. Go to the [Alexa Developer Console](https://developer.amazon.com/alexa/console/ask).
 2. Click **"Create Skill"**.
-3. Enter a name (e.g., `Haushelfer`).
+3. Enter a name (e.g., `the homeassistant`).
 4. Choose **Custom** as the skill type and **AWS Lambda** as the backend service (recommended).
 5. Upload the **Interaction Model**:
    - Navigate to **Build → Interaction Model → JSON Editor**.
