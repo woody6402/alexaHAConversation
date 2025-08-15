@@ -32,6 +32,7 @@ This Alexa Custom Skill connects Alexa to your Home Assistant instance, allowing
 4. In **Configuration → Environment Variables**, set the variables listed below.
 5. Copy the ARN of your Lambda function.
 6. In the Alexa Developer Console → **Endpoint**: choose **AWS Lambda ARN** and paste the ARN.
+7. On the AWS Lambda console add enviroment variables as listed below 
 
 ---
 
