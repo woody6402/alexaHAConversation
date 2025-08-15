@@ -1,0 +1,50 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "den haushelfer",
+            "intents": [
+                {
+                    "name": "FreeTextIntent",
+                    "slots": [
+                        {
+                            "name": "q",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "status {q}",
+                        "über {q}",
+                        "nach {q}",
+                        "und {q}",
+                        "und frage {q}",
+                        "und schalte {q}",
+                        "haushelfer {q}",
+                        "schalte {q}",
+                        "frage {q}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
