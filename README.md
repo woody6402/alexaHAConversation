@@ -1,3 +1,5 @@
+beware that's prototyping ina very early stage ...
+
 # Alexa Custom Skill – Haushelfer
 
 This Alexa Custom Skill connects Alexa to your Home Assistant instance, allowing you to control devices and request status updates in German.
