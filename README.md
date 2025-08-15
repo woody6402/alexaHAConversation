@@ -28,11 +28,12 @@ This Alexa Custom Skill connects Alexa to your Home Assistant instance, allowing
 ### 2. Set up the AWS Lambda Function
 1. Open the [AWS Lambda Console](https://console.aws.amazon.com/lambda/).
 2. Create a new function (Python 3.9 or newer).
-3. Upload the contents of the [`lambda_function.py`](lambda_function.py) file.
-4. In **Configuration → Environment Variables**, set the variables listed below.
-5. Copy the ARN of your Lambda function.
-6. In the Alexa Developer Console → **Endpoint**: choose **AWS Lambda ARN** and paste the ARN.
-7. On the AWS Lambda console add enviroment variables as listed below 
+3. When creating the Lambda function, assign it a **Basic Execution Role** so it can write logs to CloudWatch: AWSLambdaBasicExecutionRole  
+4. Upload the contents of the [`lambda_function.py`](lambda_function.py) file.
+5. In **Configuration → Environment Variables**, set the variables listed below.
+6. Copy the ARN of your Lambda function.
+7. In the Alexa Developer Console → **Endpoint**: choose **AWS Lambda ARN** and paste the ARN.
+8. On the AWS Lambda console add enviroment variables as listed below 
 
 ---
 
