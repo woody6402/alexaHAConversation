@@ -58,6 +58,18 @@ Once the skill is published or enabled in developer mode, you can interact with 
 
 Currently the interaction is done in German, but can be easily translated to en ...
 
+## Status
+
+> It's working against my HA installation, where it's using a chatgpt assistant client
+> I can ask to report the status of the exported sensors in differnet means and also actions are possible.
+
+## Drawbacks
+
+> interaction via Alexa developer console and alexa chat of the alexa app are working in ground functionality
+> interaction via speach need a good rythmus, which is mainly caused by the alexa frontend
+> one-shot actions are currently only working in the chats
+> to catch the requests the intent needs a starting word/clause since the simple alexa intent interaction only allows this
+  
 ---
 
 ## Debugging
